@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "@graphile-contrib/pg-simplify-inflector": "^6.1.0",
+    "@graphile/pg-aggregates": "^0.1.0",
+    "postgraphile": "^4.12.9",
+    "postgraphile-plugin-connection-filter": "^2.3.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.6.2"
+  }
+}
