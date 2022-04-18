@@ -6,6 +6,8 @@ policies.
 
 ## Installing the database
 
+Clone down this repository and change directory into it.
+
 Assuming you have PostgreSQL running locally with "trust" authentication, first
 create the `graphql` role using password `insecure`:
 
@@ -22,8 +24,6 @@ psql -X1v ON_ERROR_STOP=1 -f example_schema.sql postgraphile_apple
 ```
 
 ## Running
-
-Clone down this repository and change directory into it.
 
 If you don't already have `yarn`, install it:
 
